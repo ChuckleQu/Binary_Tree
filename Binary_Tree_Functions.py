@@ -2,8 +2,7 @@ import random
 
 
 # Create a number list whose identical numbers are not greater than 5.
-# Note the if the identical numbers are more than 5. It will cause error.
-# Pleas see "readme.md" in GitHub to get the detail.
+# Note the if the identical numbers are more than 5, it will cause error.
 def create_numbers():
     list_of_numbers = []
     while len(list_of_numbers) <= 100:
