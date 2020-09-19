@@ -1,5 +1,5 @@
 import random
-from Binary_tree_functions import BinaryTree, create_tree, print_tree
+from Binary_Tree_Functions import BinaryTree, create_tree, print_tree
 
 list_of_numbers = []
 for n in range(0, 100):                      # Create 100 random numbers and store it in "list_of_numbers".
