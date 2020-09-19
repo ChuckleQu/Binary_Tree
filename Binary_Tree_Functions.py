@@ -1,5 +1,5 @@
 class BinaryTree:
-    def __init__(self, rootObj, name='X'):           # Make change here: add "name" to __init__.
+    def __init__(self, rootObj, name=None):           # Make change here: add "name" to __init__.
         self.root = rootObj
         self.name = name
         self.leftChild = None
