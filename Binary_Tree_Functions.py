@@ -1,10 +1,22 @@
 import random
+import sys
+
+
+class Logger(object):                             # This class is used to keep output into a txt file.
+    def __init__(self, filename):
+        self.terminal = sys.stdout
+        self.log = open(filename, "w")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+    def flush(self):
+        pass
 
 
 # Create a number list whose identical numbers are not greater than 5.
-# Note the if the identical numbers are more than 5. It will cause error.
-# Pleas see "readme.md" in GitHub to get the detail.
-def create_numbers():
+def create_numbers():                          # Note the if the identical numbers are more than 5. It will cause error.
     list_of_numbers = []
     while len(list_of_numbers) < 100:
         number = random.randint(0, 100)
@@ -14,7 +26,7 @@ def create_numbers():
 
 
 class BinaryTree:
-    def __init__(self, rootObj, name=None):           # Make change here: add "name" to __init__.
+    def __init__(self, rootObj, name=None):    # Make change here: add "name" to __init__.
         self.root = rootObj
         self.name = name
         self.leftChild = None
