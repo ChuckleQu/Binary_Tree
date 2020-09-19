@@ -6,7 +6,7 @@ for n in range(0, 100):                      # Create 100 random numbers and sto
     number = random.randint(0, 100)
     list_of_numbers.append(number)
 
-my_tree = BinaryTree(list_of_numbers)        # Initialize "list_of_numbers": equip it with "LeftChild" and "RightChild".
+my_tree = BinaryTree(list_of_numbers, 'X')        # Initialize "list_of_numbers": equip it with "LeftChild" and "RightChild".
 my_tree = create_tree(my_tree)               # Call function "create_tree" to create the tree.
 
 print('node\t\tmin\t\tmax\t\tnum_of_points')  # Print the title.
