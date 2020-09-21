@@ -2,19 +2,6 @@ import random
 import sys
 
 
-class Logger(object):                             # This class is used to keep output into a txt file.
-    def __init__(self, filename):
-        self.terminal = sys.stdout
-        self.log = open(filename, "w")
-
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-
-    def flush(self):
-        pass
-
-
 # Create a number list whose identical numbers are not greater than 5.
 def create_numbers():                          # Note the if the identical numbers are more than 5. It will cause error.
     list_of_numbers = []
