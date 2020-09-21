@@ -9,6 +9,6 @@ print_tree(my_tree)                          # Call function "print_tree" to pri
 
 # Note that when print out "my_tree", I place a blank line when one level is end.
 # This can help us to identify different levels.
-# If you don't like this blank line, you can also delete it by deleting the line 58 in "Binary_tree_function.py" file.
+# If you don't like this blank line, you can also delete it by deleting the line 70 in "Binary_tree_function.py" file.
 
 # We can type "python<file_name.py>output_file_name.txt" into terminal to get the output text file.
