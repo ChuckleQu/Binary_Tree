@@ -115,7 +115,7 @@ Why there will be an error? To figure out why, let's add one line in the add_lev
         self.leftChild = BinaryTree(left, self.name + 'L')
         self.rightChild = BinaryTree(right, self.name + 'R')
 ```
-Now, run the code several time untill the error comes out again and see what are printed on the terminal.
+Now, run the code several time untill the error comes out again and see what are printed on the console.
 
 ![Image of Error_Output](https://img.overpic.net/images/8/n/r/x8nr6ibfbjslf75kjj5bf.png)
 
