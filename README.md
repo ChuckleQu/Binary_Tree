@@ -1,4 +1,5 @@
 # Binary-Tree
+## Python Challenge 2020/09/18
 I have two files to built my binary tree. One is the file used to store class and functions, *Binary_Tree_Fuctions.py*. Another is the file used to execute, *Python_Changes.py*. Let's see *Binary_Tree_Fuctions.py* first.
 
 ## Binary_Tree_functions.py
