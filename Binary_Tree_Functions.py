@@ -1,5 +1,4 @@
 import random
-import sys
 
 
 # Create a number list whose identical numbers are not greater than 5.
