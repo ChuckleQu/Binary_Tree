@@ -1,4 +1,3 @@
-import sys
 from Binary_Tree_Functions import BinaryTree, create_tree, print_tree, create_numbers
 
 list_of_numbers = create_numbers()           # Create 100 random numbers and store it in "list_of_numbers".
