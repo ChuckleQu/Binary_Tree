@@ -49,10 +49,14 @@ class BinaryTree:
 def create_tree(tree):                     # The function "create_tree" is used to create our tree.
     if len(tree.getRootValue()) > 5:       # Specify the terminating condition (not greater than 5 points).
         tree.add_level()
-        create_tree(tree.getLeftChild())   # We use pre-order to check the nodes who satisfy the condition "length > 5",
+        create_tree(tree.getLeftChild())   # We use preorder to check the nodes who satisfy the condition "length > 5",
         create_tree(tree.getRightChild())  # and create a new level at these satisfying nodes.
     return tree
 ```
+We mention preorder here. Let's see what does it really mean. For preorder, we accesses the root node first, then recursively accesses the left child, and finally the right child. The following picture shows more vividly what the preorder is.
+
+![Image of pre-order](https://img.overpic.net/images/w/3/1/xw315zqc1h39m3pzph.png)
+
 
 4. function print_tree
 ```python
