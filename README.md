@@ -105,8 +105,6 @@ from Binary_Tree_Functions import BinaryTree, create_tree, print_tree, create_nu
 list_of_numbers = create_numbers()           # Create 100 random numbers and store it in "list_of_numbers".
 ```
 This function will create a list of numbers whose identical numbers are not greater than 5. Note that if the identical numbers are more than 5. It will cause error. Let's see what will happen if the identical numbers are more than 5.
- 
-![Image of Error](https://img.overpic.net/images/w/4/7/xw47mznc5nhqm7hyh7ey6.png)
 
 Why there will be an error? To figure out why, let's add one line in the add_level function.
 ```python
@@ -120,8 +118,6 @@ Why there will be an error? To figure out why, let's add one line in the add_lev
         self.rightChild = BinaryTree(right, self.name + 'R')
 ```
 Now, run the code several time untill the error comes out again and see what are printed on the console.
-
-![Image of Error_Output](https://img.overpic.net/images/8/n/r/x8nr6ibfbjslf75kjj5bf.png)
 
 For the 6 identical number "96", the add_level function can not seperate them into smaller parts. However, since the length of the list is greater than 5, the function will try to seperate them again and again and finally cause the error. To avoid this kind of circumstances, when produce numbers, we can't let it create more than five identical numbers.
 
