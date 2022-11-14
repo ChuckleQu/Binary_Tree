@@ -55,9 +55,6 @@ def create_tree(tree):                     # The function "create_tree" is used 
 ```
 We mention preorder here. Let's see what does it really mean. For preorder, we accesses the root node first, then recursively accesses the left child, and finally the right child. The following picture shows more vividly what the preorder is.
 
-![Image of pre-order](https://img.overpic.net/images/w/3/1/xw315zqc1h39m3pzph.png)
-
-
 4. function print_tree
 ```python
 def print_tree(root):        # This function is used to print our nodes from "top to bottom" and "left to right".
